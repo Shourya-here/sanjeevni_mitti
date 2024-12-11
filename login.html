@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="login.js" defer></script>
+</head>
+<body> 
+    <nav class="navbar">
+        <div class="logo">SANJEEVNI MITTI</div>
+        <ul class="nav-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <a href="#" class="btn-get-started">Get Started</a>
+    </nav>
+    
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <!-- Replace the login button with a link -->
+                <a href="./fill.html" class="btn-primary" style="display: block; text-align: center; padding: 10px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">Login</a>
+                <div class="or-separator">
+                    <span>or</span>
+                </div>
+                <div class="google-login">
+                    <button type="button" class="btn-google" onclick="googleLogin()">Continue with Google</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
